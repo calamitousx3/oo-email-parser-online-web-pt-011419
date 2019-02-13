@@ -10,8 +10,8 @@ def EmailParser
     @emails = email 
   end 
   
-  def emails 
-    @ emails 
-  end
-  EmailParser.new(emails)
-end 
+def parse
+  emails.delete(',').split.uniq
+end
+
+end
