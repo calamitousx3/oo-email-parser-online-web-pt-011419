@@ -12,6 +12,6 @@ def EmailParser
   
   def emails 
     @ emails 
-    
+  end
   EmailParser.new(emails)
 end 
