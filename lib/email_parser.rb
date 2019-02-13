@@ -10,6 +10,6 @@ def EmailParser
     @emails = emails 
   end 
   
-  
+  def emails 
   EmailParser.new(emails)
 end 
