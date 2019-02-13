@@ -13,6 +13,7 @@ class EmailParser
   
 def parse
   emails.delete(',').split.uniq
+  binding.pry
 end
 
 end
